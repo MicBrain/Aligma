@@ -1,0 +1,14 @@
+create table folks (Name, Age, Birthplace);
+insert into folks values 'Martin', '80', 'Buffalo';
+insert into folks values 'George', '60', 'Syracuse';
+insert into folks values 'Ann', '30', 'Detroit';
+insert into folks values 'Brian', '10', 'Ann Arbor';
+
+print folks;
+store folks;
+
+create table folks ('None');
+print folks;
+
+load folks;
+print folks;

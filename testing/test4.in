@@ -1,0 +1,10 @@
+/* Create, insert into, and print simple table. */
+
+create table simple (First, Second, Third);
+
+insert into simple values 'red', 'green', 'blue';
+insert into simple values 'violet', 'indigo', 'near ultraviolet';
+insert into simple values 'far ultraviolet', 'x-ray', 'gamma';
+
+print simple;
+quit;

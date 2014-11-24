@@ -1,0 +1,19 @@
+DB61B System.  Version 2.0.
+Contents of folks:
+  George 60 Syracuse
+  Martin 80 Buffalo
+  Brian 10 Ann Arbor
+  Ann 30 Detroit
+Stored folks.db
+Error: unexpected token: ''None''
+Contents of folks:
+  George 60 Syracuse
+  Martin 80 Buffalo
+  Brian 10 Ann Arbor
+  Ann 30 Detroit
+Loaded folks.db
+Contents of folks:
+  George 60 Syracuse
+  Martin 80 Buffalo
+  Ann 30 Detroit
+  Brian 10 Ann Arbor

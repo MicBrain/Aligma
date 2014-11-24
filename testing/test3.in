@@ -1,0 +1,11 @@
+load students;
+load enrolled;
+load schedule;
+select SID, Firstname from students
+     where Lastname = 'Chan';
+select Firstname, Lastname, Grade
+         from students, enrolled where CCN = '21001';
+create table enrolled2 as select SID from enrolled, schedule where Dept = 'EECS' and Num = '61A';
+print enrolled2;
+select Firstname, Lastname from students, enrolled2;
+quit;

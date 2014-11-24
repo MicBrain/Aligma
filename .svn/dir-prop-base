@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 10
+
+folks.db
+
+K 13
+svn:mergeinfo
+V 24
+/staff/proj1:22054-30129
+END
